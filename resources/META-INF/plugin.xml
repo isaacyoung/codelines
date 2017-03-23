@@ -30,6 +30,9 @@
 
   <actions>
     <!-- Add your actions here -->
+    <action id="statplugin" class="StatPlugin" text="count code" description="count code">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+    </action>
   </actions>
 
 </idea-plugin>
