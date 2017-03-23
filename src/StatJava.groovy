@@ -28,7 +28,8 @@ class StatJava {
         for (int i = 0; i < childs.length ;i++) {
             File file = childs[i]
             if (!file.isDirectory()) {
-                if (file.getName().toLowerCase().endsWith(".java")) {
+                if (file.getName().toLowerCase().endsWith(".java")
+                        || file.getName().toLowerCase().endsWith(".groovy")) {
                     result.classcount++
                     BufferedReader br = null
                     boolean comment = false

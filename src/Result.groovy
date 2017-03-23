@@ -10,4 +10,11 @@ class Result {
     long blankLines = 0 // 空行
     long commentLines = 0 // 注释行
     long codeLines = 0 // 代码行
+
+    String toString() {
+        "class:" + classcount + "\n" +
+        "blankLines:" + blankLines + "\n" +
+        "commentLines:" + commentLines + "\n" +
+        "codeLines:" + codeLines + "\n"
+    }
 }

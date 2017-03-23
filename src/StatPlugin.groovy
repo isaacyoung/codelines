@@ -1,6 +1,7 @@
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
-import com.intellij.openapi.project.Project;
+import com.intellij.openapi.project.Project
+import com.intellij.openapi.ui.Messages;
 
 /**
  * 项目名称：代码统计
@@ -14,6 +15,9 @@ class StatPlugin extends AnAction {
     @Override
     void actionPerformed(AnActionEvent e) {
         Project p =  e.getProject()
-        System.out.println(p.getBasePath())
+        File f = new File(p.getBasePath())
+        Result result = StatJava.stat(f)
+        def msg = "java:\n" + result.toString()
+        Messages.showMessageDialog(msg,"code lines",Messages.getInformationIcon())
     }
 }
