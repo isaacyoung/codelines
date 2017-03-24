@@ -1,6 +1,6 @@
 <idea-plugin version="2">
   <id>cn.isaac.countcode</id>
-  <name>countcode</name>
+  <name>Countcode</name>
   <version>1.0</version>
   <vendor email="isaacyoung82@163.com" url="">isaac</vendor>
 
