@@ -1,15 +1,16 @@
-<idea-plugin version="2">
-  <id>cn.isaac.countcode</id>
-  <name>Countcode</name>
-  <version>1.1</version>
+<idea-plugin>
+  <id>cn.isaac.codelines</id>
+  <name>CodeLines</name>
+  <version>1.2</version>
   <vendor email="isaacyoung82@163.com" url="">isaac</vendor>
 
   <description><![CDATA[
-      Code Lines Count Plugin for java
+      Code Lines Count Plugin <br>
+      Tools -> Code Lines
     ]]></description>
 
   <change-notes><![CDATA[
-
+      for java
     ]]>
   </change-notes>
 
@@ -28,7 +29,7 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="statplugin" class="StatPlugin" text="Count Code" description="count code">
+    <action id="statplugin" class="StatPlugin" text="Code Lines" description="Code Lines">
       <add-to-group group-id="ToolsMenu" anchor="first"/>
     </action>
   </actions>
