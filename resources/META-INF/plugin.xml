@@ -5,7 +5,7 @@
   <vendor email="isaacyoung82@163.com" url="">isaac</vendor>
 
   <description><![CDATA[
-      Code Lines Count Plugin
+      Code Lines Count Plugin for java
     ]]></description>
 
   <change-notes><![CDATA[
@@ -28,7 +28,7 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="statplugin" class="StatPlugin" text="count code" description="count code">
+    <action id="statplugin" class="StatPlugin" text="Count Code" description="count code">
       <add-to-group group-id="ToolsMenu" anchor="first"/>
     </action>
   </actions>
