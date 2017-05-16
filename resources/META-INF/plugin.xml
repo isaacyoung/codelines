@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>cn.isaac.codelines</id>
   <name>CodeLines</name>
-  <version>1.2</version>
+  <version>1.3</version>
   <vendor email="isaacyoung82@163.com" url="">isaac</vendor>
 
   <description><![CDATA[
